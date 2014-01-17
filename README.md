@@ -1,7 +1,10 @@
+[![CCTV](https://badge.waffle.io/psgs/CCTV.png?label=ready)](https://waffle.io/psgs/CCTV)
 CCTV
 ====
 
 A Java application designed to display CCTV feeds from around Brisbane
+
+This GitHub repository uses [waffle.io](http://waffle.io)!
 
 ___
 
