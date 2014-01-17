@@ -1,5 +1,4 @@
-[![CCTV](https://badge.waffle.io/psgs/CCTV.png?label=ready)](https://waffle.io/psgs/CCTV)
-CCTV
+CCTV          [![CCTV](https://badge.waffle.io/psgs/CCTV.png?label=ready)](https://waffle.io/psgs/CCTV)
 ====
 
 A Java application designed to display CCTV feeds from around Brisbane
