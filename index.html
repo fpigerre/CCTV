@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+
 </head>
 <body>
 <header>
@@ -21,101 +24,6 @@
     </div>
 </header>
 
-<script type="text/javascript" src="assets/js/jssor.min.js"></script>
-<script type="text/javascript" src="assets/js/jssor.slider.mini.js"></script>
-<script type="text/javascript" src="assets/js/cctv-carousel.js"></script>
-
-<div id="slidescontainer">
-    <!-- Slides Container -->
-    <div u="slides" id="slides">
-        <div><img class="cctv" u="image" src=""/></div>
-        <div><img class="cctv" u="image" src=""/></div>
-        <div><img class="cctv" u="image" src=""/></div>
-    </div>
-
-    <style>
-        /* Jssor slider bullet navigation skin 21 css */
-        /*
-        .jssorb21 div           (normal)
-        .jssorb21 div:hover     (normal mouseover)
-        .jssorb21 .av           (active)
-        .jssorb21 .av:hover     (active mouseover)
-        .jssorb21 .dn           (mousedown)
-        */
-        .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
-            background: url(assets/img/b21.png) no-repeat;
-            overflow: hidden;
-            cursor: pointer;
-            margin-top: 520px;
-        }
-
-        .jssorb21 div {
-            background-position: -5px -5px;
-        }
-
-        .jssorb21 div:hover, .jssorb21 .av:hover {
-            background-position: -35px -5px;
-        }
-
-        .jssorb21 .av {
-            background-position: -65px -5px;
-        }
-
-        .jssorb21 .dn, .jssorb21 .dn:hover {
-            background-position: -95px -5px;
-        }
-    </style>
-    <div u="navigator" class="jssorb21">
-        <div u="prototype" id="prototype"></div>
-    </div>
-
-    <style>
-        /* Jssor slider arrow navigation skin 21 css */
-        /*
-        .jssora21l              (normal)
-        .jssora21r              (normal)
-        .jssora21l:hover        (normal mouseover)
-        .jssora21r:hover        (normal mouseover)
-        .jssora21ldn            (mousedown)
-        .jssora21rdn            (mousedown)
-        */
-        .jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn {
-            position: absolute;
-            cursor: pointer;
-            display: block;
-            background: url(assets/img/a21.png) center center no-repeat;
-            overflow: hidden;
-        }
-
-        .jssora21l {
-            background-position: -3px -33px;
-        }
-
-        .jssora21r {
-            background-position: -63px -33px;
-        }
-
-        .jssora21l:hover {
-            background-position: -123px -33px;
-        }
-
-        .jssora21r:hover {
-            background-position: -183px -33px;
-        }
-
-        .jssora21ldn {
-            background-position: -243px -33px;
-        }
-
-        .jssora21rdn {
-            background-position: -303px -33px;
-        }
-    </style>
-    <!-- Arrow Left -->
-    <span u="arrowleft" class="jssora21l" style="width: 55px; height: 55px; top: 123px; left: 8px;"></span>
-    <!-- Arrow Right -->
-    <span u="arrowright" class="jssora21r" style="width: 55px; height: 55px; top: 123px; right: 8px"></span>
-</div>
 <script type="text/javascript" src="assets/js/image-refresh.js"></script>
 </body>
 </html>
