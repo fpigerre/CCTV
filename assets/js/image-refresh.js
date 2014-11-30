@@ -1,4 +1,5 @@
-var images = document.getElementById("slides").getElementsByTagName("img");
+var images = document.getElementById("images").getElementsByTagName("img"); //var images = document.getElementById("slides").getElementsByTagName("img");
+
 var cameras = [
     "Metropolitan/Indooroopilly_Western_Fwy_Sth.jpg&-720140242",
     "\\Metropolitan\\MRMETRO-1464.jpg&-713108812",
