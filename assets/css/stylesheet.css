@@ -1,7 +1,6 @@
 html, body {
     height: 100%;
     width: 100%;
-    overflow: hidden;
 }
 
 body {
@@ -31,6 +30,10 @@ header img {
     display: inline-block;
     margin-top: 20px;
     padding-left: 40px;
+}
+
+.images {
+    padding: 20px;
 }
 
 @media (max-width: 870px) {
